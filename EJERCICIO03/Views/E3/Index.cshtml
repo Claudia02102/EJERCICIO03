@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<html>
+    <head>
+        <link rel="stylesheet" href="~/css/estilos.css" />
+    </head>
+    <body>
+        <form action="">
+            <input type="text" placeholder="Cantidad del producto adquirido" id="cantidad" />
+            <input type="text" placeholder="Indique el precio del producto" id="precio" />
+            <input type="submit" value="procesar" onclick="return getOperacion()" />
+            <textarea name="textarea" rows="12" cols="50" id="resultados"></textarea>
+        </form>
+    </body>
+</html>
+<script type="text/javascript" src="~/js/procesar.js"></script>

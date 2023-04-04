@@ -1,0 +1,45 @@
+﻿body {
+    background-color: #ffd800;
+    background-repeat: no-repeat;
+    height: 150vh;
+    font-family: Comic Sans MS;
+}
+
+form {
+    width: 40%;
+    border-style: inset;
+    margin: 40px auto;
+    background: #fff;
+    height: 850px;
+    border-radius: 10px;
+    padding: 60px 0;
+    text-align: center;
+}
+
+input {
+    display: inline-block;
+    width: 80%;
+    margin-top: 20px;
+    padding: 10px 0;
+    border: 0;
+    font-size: 20px;
+    border-bottom: 4px solid #ccc;
+    color: black;
+}
+
+    input[type="submit"] {
+        margin-top: 30px;
+        background-image: linear-gradient(to top left,#fbcc4c,#ffd800);
+        border-radius: 20px;
+        color: #fff;
+    }
+
+textarea {
+    display: inline-block;
+    width: 88%;
+    margin-top: 30px;
+    padding: 1px 0;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+}
